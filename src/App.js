@@ -14,7 +14,6 @@ function App() {
       socket.emit("join_room", room);
       setShowChat(true);
     }
-
     
  }
   return (
