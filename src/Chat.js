@@ -9,6 +9,7 @@ function Chat({ socket, username, room })  {
         if (currentMessage !== "") {
             const messageData = {
                 room: room,
+                
                 author: username,
                 message: currentMessage,
                 time: new Date(Date.now()).getHours() + ":" + new Date(Date.now()).getMinutes(),
