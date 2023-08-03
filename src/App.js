@@ -13,8 +13,7 @@ function App() {
     if (username !== "" && room !== "") {
       socket.emit("join_room", room);
       setShowChat(true);
-      
-    }
+         }
     
  }
   
