@@ -8,7 +8,6 @@ const socket = io.connect("http://localhost:3001");
 function App() {
  const [username, setUsername] = useState("");
  const [room, setRoom] = useState("");
- 
  const [showChat, setShowChat] = useState(false);
   
 
